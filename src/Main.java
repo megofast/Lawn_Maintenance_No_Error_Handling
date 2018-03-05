@@ -56,10 +56,8 @@ public class Main {
 
             // Check whether or not the user entered y for yes ignoring the case
             if (userInput.equalsIgnoreCase("y")) {
-                System.out.println("Inside");
                 customer1.setSenior(true);
             } else {
-                System.out.println("Bottom");
                 customer1.setSenior(false);
             }
 
